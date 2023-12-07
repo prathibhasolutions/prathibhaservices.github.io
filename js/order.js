@@ -15,7 +15,6 @@ function sendMail() {
             document.getElementById("mobile").value = "";
             document.getElementById("address").value = "";
             document.getElementById("service").value = "";
-            console.log(res);
             alert("Your order sent successfully!!")
 
         })
