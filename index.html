@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Prathibha Services</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/projects.js"></script>
+    <!-- dropdown links-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <!--logo-->
+        <a class="navbar-brand" href="index.html"
+          ><h2 class="text-white px-3"><b>Prathibha Services</b></h2></a
+        >
+        <!--end-->
+
+        <!--toggle-->
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <!---->
+
+        <!--sidebar-->
+        <div
+          class="sidebar offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!--sidebar header-->
+          <div class="offcanvas-header text-dark border-bottom">
+            <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">
+              Prathibha Services
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <!--sidebar body-->
+
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+            >
+              <li class="nav-item p-2">
+                <a
+                  class="nav-link active mx-2 text-light"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-2 p-2">
+                <a class="nav-link text-light" href="aboutus.html">About Us</a>
+              </li>
+              <div class="dropdown p-2">
+                <button
+                  type="button"
+                  class="btn dropdown-toggle text-light"
+                  data-bs-toggle="dropdown"
+                >
+                  Services
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li>
+                    <a class="dropdown-item" href="plumbing.html"
+                      >PLUMBING</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="logistics.html">LOGISTICS</a></li>
+                  <li><a class="dropdown-item" href="carpentry.html">CARPENTRY</a></li>
+                  <li><a class="dropdown-item" href="electrical.html">ELECTRICAL</a></li>
+                  <li><a class="dropdown-item" href="painting.html">PAINTING</a></li>
+                  <li><a class="dropdown-item" href="tiles.html">TILES</a></li>
+                  <li><a class="dropdown-item" href="geyser.html">GEYSER REPAIR</a></li>
+                  <li>
+                    <a class="dropdown-item" href="refrigerator.html">REFRIGERATOR REPAIR</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="washingmachine.html">WASHING MACHINE REPAIR</a>
+                  </li>
+                  <!--<li><a class="dropdown-item" href="/ac">AC REPAIR</a></li>-->
+                  <li>
+                    <a class="dropdown-item" href="waterpurifier.html">WATER PURIFIER REPAIR</a>
+                  </li>
+                </ul>
+              </div>
+
+              <li class="nav-item mx-1 p-2">
+                <a class="nav-link text-light" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item mx-1 p-2">
+                <a class="nav-link text-light" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item mx-1 p-2">
+                <a class="btn btn-primary" href="book_a_service.html"
+                  >Book a Service</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav> 
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="hero d-flex align-items-center"><div class="container-fluid bg-dark">
+<div class="container text-white">
+  <div class="row gy-4 d-flex justify-content-between">
+    <div
+      class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
+    >
+      <h1 ><b>Building Better Homes,<br> Service by Service</b></h1><br>
+      <p data-aos="fade-up" data-aos-delay="100">
+        Your one-stop solution for home services! From carpentry to appliance repairs, 
+        we offer quality work. Book online or call for expert services in carpentry, painting,
+         electrical, plumbing, and more.
+      </p>
+
+      <h3 data-aos="fade-up">Nizamabad, Telangana</h3><br><br>
+      <a type="button" href="book_a_service.html" class="btn btn-primary btn-block mb-3">Book a Service</a>
+        </div>
+    
+
+    <div class="col-lg-5">
+      <img
+        src="img/index.jpg"
+        class="img-fluid rounded mt-5 mb-3"
+        alt=""
+      />
+    </div><br><br>
+  </div>
+</div>
+</section>
+<!-- End Hero Section -->
+
+ <!-- ======= Services Section ======= -->
+ <section id="service" class="services pt-5">
+    <div class="container" data-aos="fade-up">
+      <div class="section-header text-center">
+        
+        <h2><b>OUR SERVICES<br>___</b></h2>
+      </div>
+
+      <div class="row gy-4 pt-5">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <a href='plumbing.html' class="nav-link"><div class="card">
+            <div class="card-img">
+              <img
+                src="img/plumbing.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+                <h4 class="card-title" style="color:blue"><b>PLUMBING</b></h4>
+                <p class="card-text">Plumbing work involves installing, repairing, and maintaining water and sewage systems in buildings. This includes pipes, fixtures, and fittings to ensure proper water supply and waste removal.</p>
+              </div>
+          </div></a>
+        </div>
+        <!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <a href='logistics.html' class="nav-link"><div class="card">
+            <div class="card-img">
+              <img
+                src="img/logistics.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+                <h4 class="card-title" style="color:blue"><b>LOGISTICS</b></h4>
+                <p class="card-text">House shifting is the process of moving a residence from one location to another, involving packing, loading, transportation, and unpacking of household belongings for a successful relocation.</p>
+              </div>
+          </div></a>
+        </div>
+        <!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <a href='carpentry.html' class="nav-link"><div class="card">
+            <div class="card-img">
+              <img
+                src="img/carpentry.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+                <h4 class="card-title" style="color:blue"><b>CARPENTRY</b></h4>
+                <p class="card-text">Carpentry involves shaping, assembling, and installing wooden structures, such as furniture, cabinets, and building frameworks. It requires skills in cutting, joining, and finishing wood materials.</p>
+              </div>
+          </div></a>
+        </div>
+        <!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <a href='painting.html' class="nav-link"><div class="card">
+            <div class="card-img">
+              <img
+                src="img/painting.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+                <h4 class="card-title" style="color:blue"><b>PAINTING</b></h4>
+                <p class="card-text">
+                  Painting works entail surface preparation, applying primers and coats of paint, and achieving a desired finish on walls, ceilings, or structures to enhance aesthetics and protect surfaces.</p>
+              </div>
+          </div></a>
+        </div>
+        <!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <a href='tiles.html' class="nav-link"><div class="card">
+            <div class="card-img">
+              <img
+                src="img/tiles.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+                <h4 class="card-title" style="color:blue"><b>TILES WORK</b></h4>
+                <p class="card-text">Tile works involve the installation of ceramic, porcelain, or other types of tiles on surfaces such as floors and walls, providing decorative and functional enhancements to spaces.</p>
+              </div>
+          </div></a>
+        </div>
+        <!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <a href='electrical.html' class="nav-link"><div class="card">
+            <div class="card-img">
+              <img
+                src="img/electrician.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+                <h4 class="card-title" style="color:blue"><b>ELECTRICAL</b></h4>
+                <p class="card-text">Electricians install, maintain, and repair electrical systems, including wiring, outlets, and fixtures, to ensure safe and reliable electricity supply in buildings and facilities.</p>
+              </div>
+          </div></a>
+        </div>
+        <!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <a href='geyser.html' class="nav-link"><div class="card">
+            <div class="card-img">
+              <img
+                src="img/geyser.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+                <h4 class="card-title" style="color:blue"><b>GEYSER REPAIR</b></h4>
+                <p class="card-text">Geyser repair involves diagnosing and fixing issues in water heaters, such as leaks, heating coils problem, and thermostat malfunctions, to ensure hot water supply in households.</p>
+              </div>
+          </div></a>
+        </div>
+        <!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <a href='washingmachine.html' class="nav-link"><div class="card">
+            <div class="card-img">
+              <img
+                src="img/washingmachinerepair.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+                <h4 class="card-title" style="color:blue"><b>WASHING MACHINE REPAIR</b></h4>
+                <p class="card-text">Washing machine repair includes diagnosing and fixing issues such as motor problems, leaks, electrical faults, to ensure proper functioning and convenience for households.</p>
+              </div>
+          </div></a>
+        </div>
+        <!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <a href='waterpurifier.html' class="nav-link"><div class="card">
+              <div class="card-img">
+                <img
+                  src="img/waterpurifier.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="card-body">
+                  <h4 class="card-title" style="color:blue"><b>WATER PURIFIER REPAIR</b></h4>
+                  <p class="card-text">Water purifier repair involves diagnosing and fixing issues in water filtration systems, like filter replacement, installations or electrical troubleshooting, to ensure clean and safe drinking water.</p>
+                </div>
+            </div></a>
+          </div>
+          <!-- End Card Item -->
+
+          <!--<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <a href='ac.html' class="nav-link"><div class="card">
+              <div class="card-img">
+                <img
+                  src="img/acrepair.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="card-body">
+                  <h4 class="card-title" style="color:blue"><b>AC REPAIR</b></h4>
+                  <p class="card-text">AC repair includes diagnosing and fixing issues with air conditioning systems, such as refrigerant leaks, compressor problems, or electrical faults, to maintain cooling and air quality in buildings.</p>
+                </div>
+            </div></a>
+          </div>
+          <!-- End Card Item --> 
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <a href='refrigerator.html' class="nav-link"><div class="card">
+              <div class="card-img">
+                <img
+                  src="img/refri.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="card-body">
+                  <h4 class="card-title" style="color:blue"><b>REFRIGERATOR REPAIR</b></h4>
+                  <p class="card-text">
+                    Refrigerator repair involves diagnosing and fixing issues in cooling systems, such as compressor or thermostat malfunctions, to ensure proper temperature control and preservation of food in households.</p>
+                </div>
+            </div></a>
+          </div>
+          <!-- End Card Item -->
+
+          
+      </div>
+    </div>
+  </section>
+  <!-- End Services Section -->
+
+  
+
+<!-- footer block-->
+<div class="footer container-fluid mt-4 p-5 bg-dark text-light">
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <h6><b>Prathibha Services</b></h6>
+      <br />
+      <p style="color: gray">
+        Unlock the full potential of your space with our startup's diverse services: carpentry, painting, tiles, electrical, plumbing, logistics and appliance repairs. Seamless bookings online or by phone.
+      </p>
+    </div>
+    <div class="col-sm-6 col-md-2">
+      <h6><b>Our Services</b></h6>
+      <br />
+      <p style=" color: gray">
+        <a class="dropdown-item" href="plumbing.html">Plumbing</a>
+        <a class="dropdown-item" href="logistics.html">Logistics</a>
+        <a class="dropdown-item" href="painting.html">Painting</a>
+        <a class="dropdown-item" href="carpentry.html">Carpentry</a>
+        <a class="dropdown-item" href="tiles.html">Tiles</a>
+        <a class="dropdown-item" href="electrical.html">Electrical</a>
+      </p>
+    </div>
+    <div class="col-sm-6 col-md-2">
+      <h6><b>Appliance repairs</b></h6>
+      <br />
+      <p style=" color: gray">
+        <a class="dropdown-item" href="geyser.html">Geyser</a>
+        <a class="dropdown-item" href="washingmachine.html">Washing machine</a>
+        <a class="dropdown-item" href="waterpurifier.html">Water purifier</a>
+        <a class="dropdown-item" href="refrigerator.html">Refrigerator</a>
+        <!--<a class="dropdown-item" href="/ac">Air conditioning</a>-->
+      </p>
+    </div>
+    <div class="col-sm-6 col-md-2">
+      <h6><b>Quick Links</b></h6>
+      <br />
+      <p style=" color: gray">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="aboutus.html">About Us</a>
+        <a class="nav-link" href="book_a_service.html">Book a Service</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+      </p>
+    </div>
+  </div>
+  <div class="container mt-4 text-center">
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/ -->
+      Designed by <a href="https://www.prathibhasolutions.com/">Prathibha Solutions</a>
+    </div>
+  </div>
+  
+  <a href="https://api.whatsapp.com/send?phone=9347749024&text=Hello " class="whatsapp-button" target="_blank" style="position: fixed;  right: 15px; bottom: 15px;">
+    <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="whatsapp">
+  </a>
+</body>
+</html>

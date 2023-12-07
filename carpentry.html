@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Prathibha Services</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/projects.js"></script>
+    <!-- dropdown links-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <!--logo-->
+        <a class="navbar-brand" href="index.html"
+          ><h2 class="text-white px-3"><b>Prathibha Services</b></h2></a
+        >
+        <!--end-->
+
+        <!--toggle-->
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <!---->
+
+        <!--sidebar-->
+        <div
+          class="sidebar offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!--sidebar header-->
+          <div class="offcanvas-header text-dark border-bottom">
+            <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">
+              Prathibha Services
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <!--sidebar body-->
+
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+            >
+              <li class="nav-item p-2">
+                <a
+                  class="nav-link active mx-2 text-light"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-2 p-2">
+                <a class="nav-link text-light" href="aboutus.html">About Us</a>
+              </li>
+              <div class="dropdown p-2">
+                <button
+                  type="button"
+                  class="btn dropdown-toggle text-light"
+                  data-bs-toggle="dropdown"
+                >
+                  Services
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li>
+                    <a class="dropdown-item" href="plumbing.html"
+                      >PLUMBING</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="logistics.html">LOGISTICS</a></li>
+                  <li><a class="dropdown-item" href="carpentry.html">CARPENTRY</a></li>
+                  <li><a class="dropdown-item" href="electrical.html">ELECTRICAL</a></li>
+                  <li><a class="dropdown-item" href="painting.html">PAINTING</a></li>
+                  <li><a class="dropdown-item" href="tiles.html">TILES</a></li>
+                  <li><a class="dropdown-item" href="geyser.html">GEYSER REPAIR</a></li>
+                  <li>
+                    <a class="dropdown-item" href="refrigerator.html">REFRIGERATOR REPAIR</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="washingmachine.html">WASHING MACHINE REPAIR</a>
+                  </li>
+                  <!--<li><a class="dropdown-item" href="/ac">AC REPAIR</a></li>-->
+                  <li>
+                    <a class="dropdown-item" href="waterpurifier.html">WATER PURIFIER REPAIR</a>
+                  </li>
+                </ul>
+              </div>
+
+              <li class="nav-item mx-1 p-2">
+                <a class="nav-link text-light" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item mx-1 p-2">
+                <a class="nav-link text-light" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item mx-1 p-2">
+                <a class="btn btn-primary" href="book_a_service.html"
+                  >Book a Service</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>  
+
+
+<section id="hero" class="hero d-flex align-items-center"><div class="container-fluid bg-dark">
+    <div class="container text-white">
+        <div class="justify-content-center p-5">
+          <div class="text-center display-5"><b>Carpentry</b></div><br>
+          <p data-aos="fade-up" data-aos-delay="100" class="text-center">
+            Carpentry involves shaping, assembling, and installing wooden structures,<br>
+             such as furniture, cabinets, and building frameworks. It requires skills in cutting,<br>
+              joining, and finishing wood materials.
+          </p>
+          </div>
+          </div>
+        </section>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light pl-5 pt-4" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item h5"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active h5" aria-current="page">Carpentry</li>
+            </ol>
+          </nav>
+<div class="container p-2">
+    <div class="row">
+        <div class="col-sm-4">
+          <div class="w3-panel w3-border p-4">
+            <a href='plumbing.html' class="nav-link"><h4 >|  Plumbing</h4></a>
+            <a href='logistics.html' class="nav-link" ><h4 >|  Logistics</h4></a>
+            <a href='carpentry.html' class="nav-link"> <h4 >|  Carpentry</h4></a>
+            <a href='electrical.html' class="nav-link"> <h4 >|  Electrical</h4></a>
+            <a href='painting.html' class="nav-link"> <h4 >|  Painting</h4></a>
+            <a href='tiles.html' class="nav-link"> <h4 >|  Tiles</h4></a>
+            <a href='washingmachine.html' class="nav-link"> <h4 >|  Washing Machine repair</h4></a>
+            <a href='geyser.html' class="nav-link"> <h4 >|  Geyser repair</h4></a>
+            <a href='refrigerator.html' class="nav-link">  <h4 >|  Refrigerator repair</h4></a>
+            <!--<a href='/ac' class="nav-link">  <h4 >|  AC repair</h4></a>-->
+            <a href='waterpurifier.html' class="nav-link">  <h4 >|  Water Purifier repair</h4></div></a>
+       <br>
+      </div>
+      <div class="col-sm-8 justify-content-center">
+        <img src="img/carpentry.jpg" class="img-fluid">
+        <br><br>
+       <div class="h3"><b>Carpentry Services</b></div> 
+       Elevate your living spaces with the exquisite craftsmanship of Prathibha carpentry services. Our skilled carpenters bring precision, creativity, and functionality to every project.
+       
+       <h4 style="text-align:left ;"><b>Our Services include:</b></h4><ul>
+        <i class="fa fa-check-square-o" style="font-size:36px; color:green"></i>  <b>Custom Furniture: </b> Transform your vision into reality with our bespoke furniture craftsmanship. From unique pieces to functional designs, we tailor furniture to suit your style.<br><br>
+       <i class="fa fa-check-square-o" style="font-size:36px; color:green"></i> <b>Cabinetry:  </b>Upgrade your spaces with custom cabinets designed for maximum storage and aesthetic appeal. Our carpenters ensure seamless integration into your home or office.
+
+       <br><br>
+       <i class="fa fa-check-square-o" style="font-size:36px; color:green"></i> <b>Repairs and Restorations: </b>Extend the life of your wooden fixtures with our repair and restoration services. From fixing minor damages to complete overhauls, we revive the beauty of your woodwork.
+       <br><br>
+       <i class="fa fa-check-square-o" style="font-size:36px; color:green"></i>  <b>Installation Services: </b>Trust our experts for precise and secure installations of doors, windows, and other wooden features. We ensure a seamless fit and long-lasting functionality.<br><br>
+</ul>
+       <h4 style="text-align:left ;"><b>Why Prathibha Services?</b></h4><ul>
+        <i class="fa fa-check-square-o" style="font-size:36px; color:green"></i>  <b>Skilled Technicians:  </b>Our team consists of experienced technicians dedicated to delivering top-notch service.<br><br>
+       <i class="fa fa-check-square-o" style="font-size:36px; color:green"></i> <b>Timely Response:  </b>We understand the urgency of issues. Our team responds promptly to your service requests, minimizing inconvenience.<br><br>
+       <i class="fa fa-check-square-o" style="font-size:36px; color:green"></i> <b>Transparent Pricing:  </b>We believe in transparent and fair pricing. Receive upfront quotes for your services without hidden costs.<br><br>
+       <i class="fa fa-check-square-o" style="font-size:36px; color:green"></i> <b>Quality Materials: </b>We use high-quality materials for installations and repairs, ensuring the durability and reliability.
+
+       <br><br>
+       <i class="fa fa-check-square-o" style="font-size:36px; color:green"></i> <b>Customer Satisfaction:  </b>Your satisfaction is our priority. We strive to exceed your expectations with every service, ensuring peace of mind for your home or business.<br><br>
+       </ul>
+        
+      
+       <p>Book your service today through our website or by calling our Customer service number.</p>
+       <a class="btn btn-primary btn-block" href="tel:9347749024" style="padding:20px;">
+        Click to Call <span class="glyphicon glyphicon-earphone" style="padding-left:10px; padding-right:10px;"></span>+91 9347749024
+     </a>
+       
+    </div>
+</div></div>
+
+
+<!-- footer block-->
+<div class="footer container-fluid mt-4 p-5 bg-dark text-light">
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <h6><b>Prathibha Services</b></h6>
+      <br />
+      <p style="color: gray">
+        Unlock the full potential of your space with our startup's diverse services: carpentry, painting, tiles, electrical, plumbing, logistics and appliance repairs. Seamless bookings online or by phone.
+      </p>
+    </div>
+    <div class="col-sm-6 col-md-2">
+      <h6><b>Our Services</b></h6>
+      <br />
+      <p style=" color: gray">
+        <a class="dropdown-item" href="plumbing.html">Plumbing</a>
+        <a class="dropdown-item" href="logistics.html">Logistics</a>
+        <a class="dropdown-item" href="painting.html">Painting</a>
+        <a class="dropdown-item" href="carpentry.html">Carpentry</a>
+        <a class="dropdown-item" href="tiles.html">Tiles</a>
+        <a class="dropdown-item" href="electrical.html">Electrical</a>
+      </p>
+    </div>
+    <div class="col-sm-6 col-md-2">
+      <h6><b>Appliance repairs</b></h6>
+      <br />
+      <p style=" color: gray">
+        <a class="dropdown-item" href="geyser.html">Geyser</a>
+        <a class="dropdown-item" href="washingmachine.html">Washing machine</a>
+        <a class="dropdown-item" href="waterpurifier.html">Water purifier</a>
+        <a class="dropdown-item" href="refrigerator.html">Refrigerator</a>
+        <!--<a class="dropdown-item" href="/ac">Air conditioning</a>-->
+      </p>
+    </div>
+    <div class="col-sm-6 col-md-2">
+      <h6><b>Quick Links</b></h6>
+      <br />
+      <p style=" color: gray">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="aboutus.html">About Us</a>
+        <a class="nav-link" href="book_a_service.html">Book a Service</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+      </p>
+    </div>
+  </div>
+  <div class="container mt-4 text-center">
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/ -->
+      Designed by <a href="https://www.prathibhasolutions.com/">Prathibha Solutions</a>
+    </div>
+  </div>
+  
+  <a href="https://api.whatsapp.com/send?phone=9347749024&text=Hello " class="whatsapp-button" target="_blank" style="position: fixed;  right: 15px; bottom: 15px;">
+    <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="whatsapp">
+  </a>
+</body>
+</html>
