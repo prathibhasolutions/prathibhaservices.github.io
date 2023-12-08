@@ -34,7 +34,7 @@ function sendMessage() {
         message: document.getElementById("message").value,
     };
 
-    const serviceID = "service_vcy55aj";
+    const serviceID = "service_79w44o8";
     const templateID = "template_sr8prhc";
 
 
