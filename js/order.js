@@ -21,7 +21,7 @@ function sendMail() {
 
         })
         .catch(err => console.log(err));
-    alert("Your order sent successfully!!");
+    alert("Your order sent successfully!! Our technician will contact you in short time");
 
 }
 
@@ -49,6 +49,6 @@ function sendMessage() {
 
         })
         .catch(err => console.log(err));
-    alert("Your message sent successfully!!");
+    alert("Your message sent successfully!! we will contact you within 24 hours");
 
 }
