@@ -8,7 +8,8 @@ function sendMail() {
 
     const serviceID = "service_vcy55aj";
     const templateID = "template_dvbxxto";
-    
+
+
 
     emailjs.send(serviceID, templateID, params)
         .then(res => {
@@ -16,9 +17,10 @@ function sendMail() {
             document.getElementById("mobile").value = "";
             document.getElementById("address").value = "";
             document.getElementById("service").value = "";
-            alert("Your order sent successfully!!");
+            console.log(res);
 
         })
         .catch(err => console.log(err));
+    alert("Your order sent successfully!!");
 
 }

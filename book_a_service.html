@@ -48,6 +48,7 @@
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
 <script src="js/order.js"></script>
+
 <script type="text/javascript">
    (function(){
       emailjs.init("fGWfT4A1Hcpi7WgxH");
@@ -196,7 +197,7 @@
  </h5><br>
  
  <form >
-    <div ><label for="sel2" class="form-label">Select your service</label>
+    <div ><label for="sel2" class="form-label form-group">Select your service</label>
     <select class="form-select p-2" id="service" name="service" >
       <option class="m-2" value="plumbing">PLUMBING</option>
       <option class="m-2" value="logistics">LOGISTICS</option>
@@ -211,12 +212,12 @@
     </select><br>
   </div>
       <h4><b>Your Personal Details</b></h4><br>
-          <div class="mb-3 mt-3">
+          <div class="mb-3 mt-3 form-group">
               
             <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
           </div>
             
-      <div class="mb-3">
+      <div class="mb-3 form-group">
    <input type="text" class="form-control" id="mobile" placeholder="Enter your mobile no." name="mobile">
     </div>
     <textarea class="form-control" rows="5" placeholder="Enter your address" id="address" name="address"></textarea><br>
