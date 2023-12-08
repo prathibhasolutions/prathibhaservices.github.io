@@ -24,3 +24,31 @@ function sendMail() {
     alert("Your order sent successfully!!");
 
 }
+
+
+function sendMessage() {
+    var params = {
+        name: document.getElementById("name").value,
+        mobile: document.getElementById("mobile").value,
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value,
+    };
+
+    const serviceID = "service_79w44o8";
+    const templateID = "template_sr8prhc";
+
+
+
+    emailjs.send(serviceID, templateID, params)
+        .then(res => {
+            document.getElementById("name").value = "";
+            document.getElementById("mobile").value = "";
+            document.getElementById("subject").value = "";
+            document.getElementById("message").value = "";
+            console.log(res);
+
+        })
+        .catch(err => console.log(err));
+    alert("Your message sent successfully!!");
+
+}
